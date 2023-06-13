@@ -45,19 +45,19 @@ function changeCurrency(){
   const currencyName = document.querySelector("#currency-name")
   const currencyImage = document.querySelector(".currency-image")
 
-  if(currencySelect.value == "dolar2"){
+  if(currencySelect.value == "dolar"){
     currencyName.innerHTML = "Dólar Americano"
     currencyImage.src = "./assets/usaDolar.png"
   }
-  if(currencySelect.value == "euro2"){
+  if(currencySelect.value == "euro"){
     currencyName.innerHTML = "Euro"
     currencyImage.src = "./assets/euro.png"
   }
-  if(currencySelect.value == "libra2"){
+  if(currencySelect.value == "libra"){
     currencyName.innerHTML = "Libra"
     currencyImage.src = "./assets/libra.png"
   }
-  if(currencySelect.value == "bitcoin2"){
+  if(currencySelect.value == "bitcoin"){
     currencyName.innerHTML = "Bitcoin"  
     currencyImage.src = "./assets/bitcoin.png"
   }
